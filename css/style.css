@@ -1,10 +1,3 @@
-/******* Bootstrap Theming ********/
-/*!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -41,7 +34,61 @@
 *::after {
   box-sizing: border-box;
 }
+.letra{
+  font-size: 0.8em;
+  color: gray;
+  margin-right: 320px;
+}
+.letraone{
+  font-size: 0.8em;
+  color: gray;
+  margin-right: 105px;
+  margin-top: -22px;
+}
 
+.letratwo{
+  font-size: 0.8em;
+  color: gray;
+  margin-top: -20px;
+  margin-left: 100px;
+}
+
+.letrathree{
+  font-size: 0.8em;
+  color: gray;
+  margin-top: -20px;
+  margin-left: 300px;
+}
+
+.tiempo{
+  font-family: 'Arial', sans-serif;
+  font-size: 1.3em;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+  background-image: url(../img/asdd.png);
+  background-size: cover;
+}
+
+h2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  font-size: 1em;
+}
+
+i{
+  font-size: 2em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+  font-size: 1.5em;
+}
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -61,7 +108,9 @@ body {
   line-height: 1.5;
   color: #818491;
   text-align: left;
-  background-color: #FFFFFF;
+/*   background-color: #FFFFFF; */
+background-color: #d6ecf2;
+background-size: contain;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -6164,7 +6213,8 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #121F38 !important;
+background-color: #6b7cde;
+background-size: cover;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -9509,6 +9559,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navbar-dark {
   display: none;
+
 }
 
 .navbar-dark .navbar-nav .nav-link {

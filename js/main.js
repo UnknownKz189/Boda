@@ -85,14 +85,12 @@
 
     // Gallery carousel
     $(".gallery-carousel").owlCarousel({
-        autoplay: false,
-        smartSpeed: 1500,
+        autoplay: true,
+        smartSpeed: 1,
         dots: false,
         loop: true,
         nav : true,
         navText : [
-            '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-            '<i class="fa fa-angle-right" aria-hidden="true"></i>'
         ],
         responsive: {
             0:{
@@ -115,3 +113,21 @@
     
 })(jQuery);
 
+function updateCountdown() {
+    var start_date = new Date(new Date().getFullYear(), 10, 13);
+    var current_date = new Date();
+    var delta = start_date - current_date;
+    var days = Math.floor(delta / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((delta % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((delta % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((delta % (1000 * 60)) / 1000);
+
+    if (days > 0) {
+        document.getElementById("countdown").innerHTML = "" + days + "ﾠﾠ:ﾠﾠ" + hours + "ﾠﾠ :ﾠﾠ" + minutes + "ﾠﾠ:ﾠﾠ" + seconds + "";
+    } else {
+        document.getElementById("countdown").innerHTML = "ES HOY, ES HOY, ES HOYYYYYYYY";
+    }
+}
+
+updateCountdown();
+setInterval(updateCountdown, 1000);
