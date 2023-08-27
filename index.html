@@ -4,22 +4,32 @@
     <title>Cuenta regresiva</title>
 </head>
 <body>
+<<<<<<< HEAD
 
     <h2>Cuenta regresiva</h2>
 
     <h1 id="countdown"></h1>
+=======
+<h1 id="cuenta regresiva boda"></h1>
+>>>>>>> 7d4d8f095c5e59fa5faa6d150dfb9021cb091459
 
     <script>
         var start_date = new Date(new Date().getFullYear(), 10, 13);
         var current_date = new Date();
         var delta = start_date - current_date;
         var days = Math.floor(delta / (1000 * 60 * 60 * 24));
+<<<<<<< HEAD
         var hours = Math.floor((delta % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         var minutes = Math.floor((delta % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((delta % (1000 * 60)) / 1000);
 
         if (days > 0) {
             document.getElementById("countdown").innerHTML = "Faltan " + days + " días, " + hours + " horas, " + minutes + " minutos y " + seconds + " segundos para el 13 de noviembre.";
+=======
+
+        if (days > 0) {
+            document.getElementById("countdown").innerHTML = "Faltan " + days + " días para el 13 de noviembre.";
+>>>>>>> 7d4d8f095c5e59fa5faa6d150dfb9021cb091459
         } else {
             document.getElementById("countdown").innerHTML = "Ya pasó el 13 de noviembre.";
         }
