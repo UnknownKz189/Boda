@@ -7,8 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        HSDFSDKGDFMKD
-    </div>
+    <h2>Cuenta regresiva</h2>
+    <h1 id="countdown"></h1>
+
+    <script>
+        var start_date = new Date(new Date().getFullYear(), 10, 13);
+        var current_date = new Date();
+        var delta = start_date - current_date;
+        var days = Math.floor(delta / (1000 * 60 * 60 * 24));
+
+        if (days > 0) {
+            document.getElementById("countdown").innerHTML = "Faltan " + days + " días para el 13 de noviembre.";
+        } else {
+            document.getElementById("countdown").innerHTML = "Ya pasó el 13 de noviembre.";
+        }
+    </script>
 </body>
 </html>
