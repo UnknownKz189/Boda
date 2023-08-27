@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Cuenta regresiva</title>
 </head>
 <body>
+
     <h2>Cuenta regresiva</h2>
+
     <h1 id="countdown"></h1>
 
     <script>
@@ -15,9 +14,12 @@
         var current_date = new Date();
         var delta = start_date - current_date;
         var days = Math.floor(delta / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((delta % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((delta % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((delta % (1000 * 60)) / 1000);
 
         if (days > 0) {
-            document.getElementById("countdown").innerHTML = "Faltan " + days + " días para el 13 de noviembre.";
+            document.getElementById("countdown").innerHTML = "Faltan " + days + " días, " + hours + " horas, " + minutes + " minutos y " + seconds + " segundos para el 13 de noviembre.";
         } else {
             document.getElementById("countdown").innerHTML = "Ya pasó el 13 de noviembre.";
         }
