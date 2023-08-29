@@ -37,27 +37,27 @@
 .letra{
   font-size: 0.8em;
   color: gray;
-  margin-right: 320px;
+  margin-right: 280px;
 }
 .letraone{
   font-size: 0.8em;
   color: gray;
   margin-right: 105px;
-  margin-top: -22px;
+  margin-top: -25px;
 }
 
 .letratwo{
   font-size: 0.8em;
   color: gray;
-  margin-top: -20px;
+  margin-top: -25px;
   margin-left: 100px;
 }
 
 .letrathree{
   font-size: 0.8em;
   color: gray;
-  margin-top: -20px;
-  margin-left: 300px;
+  margin-top: -25px;
+  margin-left: 280px;
 }
 
 .tiempo{
