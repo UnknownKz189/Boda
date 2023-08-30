@@ -109,8 +109,9 @@ body {
   color: #818491;
   text-align: left;
 /*   background-color: #FFFFFF; */
-background-color: #d6ecf2;
-background-size: contain;
+/* background-color: #CBDEF7; */
+background-image: url(../img/blue-floral-border-with-watercolor-for-wedding-birthday-card-background-invitation-wallpaper-sticker-decoration-etc-vector.jpg);
+background-size: auto;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
