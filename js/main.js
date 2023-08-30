@@ -123,7 +123,7 @@ function updateCountdown() {
     var seconds = Math.floor((delta % (1000 * 60)) / 1000);
 
     if (days > 0) {
-        document.getElementById("countdown").innerHTML = "" + days + "ﾠﾠ:ﾠﾠ" + hours + "ﾠﾠ :ﾠﾠ" + minutes + "ﾠﾠ:ﾠﾠ" + seconds + "";
+        document.getElementById("countdown").innerHTML = "" + days + "ﾠ:ﾠ" + hours + "ﾠ :ﾠ" + minutes + "ﾠ:ﾠ" + seconds + "";
     } else {
         document.getElementById("countdown").innerHTML = "ES HOY, ES HOY, ES HOYYYYYYYY";
     }
