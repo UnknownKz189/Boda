@@ -114,7 +114,7 @@
 })(jQuery);
 
 function updateCountdown() {
-    var start_date = new Date(new Date().getFullYear(), 10, 13);
+    var start_date = new Date(new Date().getFullYear(), 9, 13);
     var current_date = new Date();
     var delta = start_date - current_date;
     var days = Math.floor(delta / (1000 * 60 * 60 * 24));
