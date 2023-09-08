@@ -34,6 +34,10 @@
 *::after {
   box-sizing: border-box;
 }
+@font-face {
+  font-family:thecalifornia;
+  src: url(../fonts/Thecalifornia.ttf);
+}
 .letra{
   font-size: 0.8em;
   color: gray;
@@ -46,6 +50,24 @@
   margin-top: -25px;
 }
 
+.txtnc{
+  font-family: 'Arial', sans-seri;
+  font-size: 1.3em;
+  color: black;
+  text-align: center;
+
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+  background-image: url(../img/asdd.png);
+  background-size: cover;
+}
+.lo{
+  font-family:thecalifornia;
+  font-size: 2.5em;
+}
 .letratwo{
   font-size: 0.8em;
   color: gray;
@@ -110,8 +132,7 @@ body {
   text-align: left;
 /*   background-color: #FFFFFF; */
 /* background-color: #CBDEF7; */
-background-image: url(../img/blue-floral-border-with-watercolor-for-wedding-birthday-card-background-invitation-wallpaper-sticker-decoration-etc-vector.jpg);
-background-size: auto;
+background-color: #C0DAF5;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -6375,7 +6396,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-background-color: #6b7cde;
+background-color: #3E6493;
 background-size: cover;
 }
 
