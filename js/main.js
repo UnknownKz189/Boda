@@ -131,3 +131,17 @@ function updateCountdown() {
 
 updateCountdown();
 setInterval(updateCountdown, 1000);
+
+function saveData() {
+    var guests = document.getElementById("guests").value
+    var events = document.getElementById("events").value
+    
+    var textToSave = "Number of Guests: " + guests + "\nI'm Attending: " + events
+    var hiddenElement = document.createElement('a');
+    
+    hiddenElement.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(textToSave);
+    hiddenElement.target = '_blank';
+    hiddenElement.download = 'datos.txt';
+    
+    hiddenElement.click();
+}
