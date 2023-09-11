@@ -49,6 +49,10 @@
   margin-right: 105px;
   margin-top: -25px;
 }
+.nos{
+  color:#E47A2E !important;
+  font-size: 1.5em;
+}
 h3{
   font-family: 'Great Vibes', cursive;
 }
@@ -60,7 +64,8 @@ h3{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
   max-width: 500px;
-  background-color:#E0E4E7;
+  height: 500px;
+  background-image: url(../img/fondo-invierno-acuarela-flores-azules_52683-78684.avif);
   background-size: cover;
   font-family: 'Great Vibes', cursive;
   font-size: 2.5em;
@@ -571,6 +576,7 @@ mark,
 
 .nove{
   font-family: 'Great Vibes', cursive;
+  font-size: 2.5em;
 }
 
 .list-inline-item {
@@ -7648,7 +7654,6 @@ button.bg-dark:focus {
 
 .color{
   color: wheat;
-  margin-left: 90px;
 }
 .ml-3,
 .mx-3 {
