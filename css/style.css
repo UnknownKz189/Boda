@@ -51,7 +51,6 @@
 }
 h3{
   font-family: 'Great Vibes', cursive;
-  font-size: 4em;
 }
 .txtnc{
   color: black;
@@ -60,9 +59,11 @@ h3{
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
-  max-width: 400px;
+  max-width: 500px;
   background-color:#E0E4E7;
   background-size: cover;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5em;
 }
 .lo{
   font-family: 'Great Vibes', cursive;
@@ -566,6 +567,10 @@ mark,
 .list-inline {
   padding-left: 0;
   list-style: none;
+}
+
+.nove{
+  font-family: 'Great Vibes', cursive;
 }
 
 .list-inline-item {
@@ -7643,6 +7648,7 @@ button.bg-dark:focus {
 
 .color{
   color: wheat;
+  margin-left: 90px;
 }
 .ml-3,
 .mx-3 {
@@ -9982,17 +9988,6 @@ a.text-dark:hover, a.text-dark:focus {
   z-index: 1;
 }
 
-.gallery-carousel .owl-nav .owl-prev,
-.gallery-carousel .owl-nav .owl-next {
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #E47A2E;
-  background: #FFFFFF;
-  font-size: 30px;
-}
 
 @media (max-width: 767.98px) {
   #event .border-right {
