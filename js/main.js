@@ -10,8 +10,6 @@
         }
     });
 
-
-    // Smooth scrolling on the navbar links
     $(".navbar-nav a").on('click', function (event) {
         if (this.hash !== "") {
             event.preventDefault();
@@ -125,10 +123,9 @@ function updateCountdown() {
     if (days > 0) {
         document.getElementById("countdown").innerHTML = "" + days + "ﾠ:ﾠ" + hours + "ﾠ :ﾠ" + minutes + "ﾠ:ﾠ" + seconds + "";
     } else {
-        document.getElementById("countdown").innerHTML = "ES HOY, ES HOY, ES HOYYYYYYYY";
+        document.getElementById("countdown").innerHTML = "ES HOY, ES HOY, ES HOYYYYYYYYYYYYYYYYYYYYY";
     }
 }
-
 updateCountdown();
 setInterval(updateCountdown, 1000);
 
